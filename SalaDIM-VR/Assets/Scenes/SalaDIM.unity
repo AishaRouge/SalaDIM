@@ -201,6 +201,71 @@ Transform:
   - {fileID: 1779732251}
   m_Father: {fileID: 640184823}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &515026702
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.745905
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.256853
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.859444
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e5160c15f8eb0cd4ba681e247284093b, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_Name
+      value: Aire Acondicionado - Rafael Blanco
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fa9e249ae9557b488b87c9e1a4d4dd7, type: 3}
 --- !u!1 &640184822
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +394,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1141161944
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.4003506
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.020848
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.538377
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9f0dd9f85d0444143b85fa4efa42698c, type: 2}
+    - target: {fileID: 919132149155446097, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_Name
+      value: Computador - Edrey Calderon
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b1bd0a8962d8ac54ea5dfc316070665f, type: 3}
 --- !u!1 &1172784033
 GameObject:
   m_ObjectHideFlags: 0
@@ -2612,3 +2742,5 @@ SceneRoots:
   - {fileID: 705507995}
   - {fileID: 142255967}
   - {fileID: 1927089464}
+  - {fileID: 1141161944}
+  - {fileID: 515026702}
