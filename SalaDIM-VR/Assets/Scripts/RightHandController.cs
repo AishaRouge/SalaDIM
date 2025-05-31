@@ -1,64 +1,68 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.XR.Interaction.Toolkit; //namespace
+using UnityEngine.XR.Interaction.Toolkit;
 
-public class RightHandController_ : MonoBehaviour //class--> declaracion / Monobehabiour--> herencia
+public class RightHandController : MonoBehaviour
 {
-    //estado
+
+
+    //Estado
     public InputActionReference JoyStick_North_Reference;
 
-    //reight controller grab
+    //Right Controller Grab
     public XRRayInteractor xrRayInteractor_grab;
-    public LineRenderer Linerendered_grab;
-    public ActionBasedController actionBaseController_grab;
+    public ActionBasedController actionBasedController_grab;
+    public LineRenderer lineRenderer_grab;
     public XRInteractorLineVisual xrInteractorLineVisual_grab;
 
-    //right controller tp
-    public XRRayInteractor xrRayInteractor_tp;
-    public LineRenderer Linerendered_tp;
-    public ActionBasedController actionBaseController_tp;
-    public XRInteractorLineVisual xrInteractorLineVisual_tp;
-
-    //metodos propios
+    //Right Controller Teleport
+    public XRRayInteractor xrRayInteractor_teleport;
+    public ActionBasedController actionBasedController_teleport;
+    public LineRenderer lineRenderer_teleport;
+    public XRInteractorLineVisual xrInteractorLineVisual_teleport;
 
 
-    private void JoyStickArribaPresionado(InputAction.CallbackContext context)
+    //Métodos propios
+    private void JoystickArribaPresionado(InputAction.CallbackContext context)
     {
-
-
 
         xrRayInteractor_grab.enabled = false;
+        //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-        xrRayInteractor_tp.enabled = true;
-
-        xrInteractorLineVisual_tp.enabled = true;
-
+        xrRayInteractor_teleport.enabled = true;
+        xrInteractorLineVisual_teleport.enabled = true;
     }
 
+    private void JoystickArribaLiberado(InputAction.CallbackContext context)
+    {
+        Invoke("JoystickArribaLiberadoInvoke", 0.005f);
+    }
 
-    private void JoyStickArribaLiberado(InputAction.CallbackContext context)
+    private void JoystickArribaLiberadoInvoke()
     {
         xrRayInteractor_grab.enabled = true;
+        //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-        xrRayInteractor_tp.enabled = false;
-
-        xrInteractorLineVisual_tp.enabled = false;
-
+        xrRayInteractor_teleport.enabled = false;
+        xrInteractorLineVisual_teleport.enabled = false;
     }
+
+
+    //Metodos heredados
     private void OnEnable()
     {
-        JoyStick_North_Reference.action.performed += JoyStickArribaPresionado;
-        JoyStick_North_Reference.action.canceled += JoyStickArribaLiberado;
+        JoyStick_North_Reference.action.performed += JoystickArribaPresionado;
+        JoyStick_North_Reference.action.canceled += JoystickArribaLiberado;
     }
+
+
 
     private void OnDisable()
     {
-        JoyStick_North_Reference.action.performed -= JoyStickArribaPresionado;
-        JoyStick_North_Reference.action.canceled -= JoyStickArribaLiberado;
+        JoyStick_North_Reference.action.performed -= JoystickArribaPresionado;
+        JoyStick_North_Reference.action.canceled -= JoystickArribaLiberado;
     }
-
-
-
 }
