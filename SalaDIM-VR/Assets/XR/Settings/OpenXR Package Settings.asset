@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: XrPerformanceSettingsFeature Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: XR Performance Settings
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.extension.performance_settings
@@ -38,37 +39,31 @@ MonoBehaviour:
   - {fileID: 6593649895084338343}
   - {fileID: 230806796732237157}
   - {fileID: -3407077564799747473}
-  - {fileID: 7019256996237596286}
   - {fileID: 1080970611164912953}
   - {fileID: -8109408729775178404}
+  - {fileID: 7019256996237596286}
   - {fileID: 3986771164564914912}
   - {fileID: 2221835222347408461}
   - {fileID: 4936159647996959310}
   - {fileID: -2255891497570657935}
   - {fileID: -6273158014300412750}
   - {fileID: 445891454856795739}
-  - {fileID: -215148367853870645}
   - {fileID: 2379239746592488841}
   - {fileID: 1037655160781176371}
-  - {fileID: 2573838928836356884}
   - {fileID: -6929112219262159282}
   - {fileID: 8214791214093775715}
   - {fileID: -5632509750293394708}
+  - {fileID: -4075471545110411144}
   - {fileID: 3434212511559996254}
   - {fileID: -3126139393765150378}
   - {fileID: 3400142801357470326}
   - {fileID: -4432756033115268556}
   - {fileID: 3956493305579488977}
+  - {fileID: 2573838928836356884}
   - {fileID: -3808492073637411333}
   - {fileID: -2580355565042820568}
-  - {fileID: 2883231353720783355}
-  - {fileID: -4075471545110411144}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
-  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
 --- !u!114 &-8109408729775178404
@@ -209,6 +204,7 @@ MonoBehaviour:
   m_Name: MetaQuestTouchPlusControllerProfile Standalone
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -469,7 +465,6 @@ MonoBehaviour:
   - {fileID: -6686955803248488724}
   - {fileID: 3113570801916269659}
   - {fileID: 1698138844467136404}
-  - {fileID: -5786658322826816295}
   - {fileID: 6423928007616230333}
   - {fileID: 202694088393570029}
   - {fileID: -6647235441809921815}
@@ -478,13 +473,8 @@ MonoBehaviour:
   - {fileID: 850991728324106017}
   - {fileID: -6143550512331562092}
   - {fileID: 858889048947913686}
-  - {fileID: -8316094882606646239}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
-  m_spacewarpMotionVectorTextureFormat: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
 --- !u!114 &-1975338092556882023
@@ -530,6 +520,7 @@ MonoBehaviour:
   m_Name: MetaQuestTouchPlusControllerProfile Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -651,13 +642,10 @@ MonoBehaviour:
     enabled: 1
   forceRemoveInternetPermission: 0
   symmetricProjection: 0
-  foveatedRenderingApi: 0
   systemSplashScreen: {fileID: 0}
   optimizeBufferDiscards: 1
   lateLatchingMode: 0
   lateLatchingDebug: 0
-  optimizeMultiviewRenderRegions: 0
-  spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &850991728324106017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -871,6 +859,7 @@ MonoBehaviour:
   m_Name: XrPerformanceSettingsFeature Android
   m_EditorClassIdentifier: 
   m_enabled: 0
+  <failedInitialization>k__BackingField: 0
   nameUi: XR Performance Settings
   version: 1.0.0
   featureIdInternal: com.unity.openxr.feature.extension.performance_settings
